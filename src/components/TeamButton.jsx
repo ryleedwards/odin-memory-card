@@ -1,7 +1,7 @@
-export default function TeamButton() {
+export default function TeamButton({ team }) {
   return (
     <>
-      <button></button>
+      <button>{team.name}</button>
     </>
   );
 }
